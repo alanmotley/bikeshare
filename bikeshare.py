@@ -136,4 +136,9 @@ def main():
 if __name__ == "__main__":
 	main()
 
-# Documentation: Added clearer instructions and comments for Udacity Git project.
+
+def normalize_city(name: str) -> str:
+    """Normalize user input for city names.""" 
+    return name.strip().lower()
+
+print('Done ✅')
