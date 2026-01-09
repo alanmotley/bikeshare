@@ -30,3 +30,6 @@ python bikeshare.py
 
 ## Notes
 - CSV data should never be committed to GitHub.
+
+## Credits
+- Udacity Git & GitHub course project template
