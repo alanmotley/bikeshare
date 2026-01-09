@@ -1,17 +1,32 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bikeshare Project (Git & GitHub Workflow Practice)
 
-### Date created
-Include the date you created this project and README file.
+This repository is used to practice a realistic Git workflow: branching, committing, pushing, and merging.
+The underlying code is a small Python CLI that demonstrates basic bikeshare-style data exploration.
 
-### Project Title
-Replace the Project Title
+## Project Goal
+Explore bikeshare trip data by:
+- selecting a city (example: New York City)
+- loading a CSV file locally
+- printing simple summary output
 
-### Description
-Describe what your project is about and what it does
+> Note: This repo is evaluated on Git/GitHub workflow, not Python sophistication.
 
-### Files used
-Include the files used
+## Files
+- `bikeshare.py` — Python CLI script
+- `new_york_city.csv` — **local-only** dataset (ignored by git)
+- `.gitignore` — excludes CSV files and common junk
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## How to Run
+```bash
+python bikeshare.py
+```
 
+## Git Workflow Used (for Udacity rubric)
+- Default branch: `master` (or `main`)
+- Feature branches:
+  - `documentation` (README + code comments)
+  - `refactoring` (code refactor with at least 3 commits)
+- Merged both branches back into the default branch.
+
+## Notes
+- CSV data should never be committed to GitHub.

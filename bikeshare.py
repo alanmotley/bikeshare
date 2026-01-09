@@ -135,3 +135,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
+# Documentation: Added clearer instructions and comments for Udacity Git project.
