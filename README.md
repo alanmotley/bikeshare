@@ -21,7 +21,7 @@ Explore bikeshare trip data by:
 python bikeshare.py
 ```
 
-## Git Workflow Used (for Udacity rubric)
+## Git Workflow Used 
 - Default branch: `master` (or `main`)
 - Feature branches:
   - `documentation` (README + code comments)
