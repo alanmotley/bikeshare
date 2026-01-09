@@ -135,3 +135,8 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
+
+def normalize_city(name: str) -> str:
+    """Normalize user input for city names.""" 
+    return name.strip().lower()
