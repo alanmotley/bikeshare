@@ -33,3 +33,6 @@ python bikeshare.py
 
 ## Credits
 - Udacity Git & GitHub course project template
+
+## Changelog
+- Minor documentation update
