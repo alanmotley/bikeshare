@@ -142,3 +142,6 @@ def normalize_city(name: str) -> str:
     return name.strip().lower()
 
 print('Done ✅')
+
+# Refactor: small constant for readability
+DEFAULT_CITY = 'new york city'
